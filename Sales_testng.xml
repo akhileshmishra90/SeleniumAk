@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="tEST">
+    <classes>
+    <!--  class name="TestSrcipt.LoginPage"></class-->
+      <class name="TestSrcipt.Shipment">
+        <methods>
+    	<include name ="salesIN_Login_TC_1()"/>
+    	
+    	<include name ="Shp_roundOff_TC_13()"/>
+    </methods>
+      
+</class>
+    </classes>
+  </test> <!-- tEST -->
+</suite> <!-- Suite -->
